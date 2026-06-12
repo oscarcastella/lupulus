@@ -8,33 +8,42 @@
 <style>
 body {
     font-family: Arial, sans-serif;
-    max-width: 800px;
+    max-width: 760px;
     margin: auto;
-    padding: 20px;
+    padding: 28px 22px;
     line-height: 1.6;
-}
-
-h1 {
-    text-align: center;
+    color: #111;
 }
 
 .logo {
     display: block;
     width: 100%;
-    max-width: 450px;
-    margin: 10px auto 20px auto;
+    max-width: 430px;
+    margin: 10px auto 46px auto;
 }
 
-.subtitol {
+.info-concert {
     text-align: center;
-    font-size: 1.2rem;
-    color: #666;
+    font-size: 1.05rem;
+    margin-bottom: 56px;
+}
+
+.repertori {
+    max-width: 520px;
+    margin: auto;
+}
+
+.obra {
     margin-bottom: 30px;
 }
 
-h2 {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
+.titol-obra {
+    font-size: 1.18rem;
+}
+
+.autor {
+    font-size: 0.95rem;
+    color: #666;
 }
 </style>
 
@@ -45,30 +54,29 @@ h2 {
      alt="Lupulus"
      class="logo">
 
-<p class="subtitol">
-Programa de mà
-</p>
+<div class="info-concert">
+    <div>Església del Carme · Manresa</div>
+    <div>14 de juny de 2026 · 18:00 h</div>
+</div>
 
-<h2>Concert</h2>
+<main class="repertori">
 
-<p>
-Data: xx/xx/2026<br>
-Lloc: xxxxxxxxxxxxx
-</p>
+    <div class="obra">
+        <div class="titol-obra">El cant dels ocells</div>
+        <div class="autor">Tradicional catalana</div>
+    </div>
 
-<h2>Programa</h2>
+    <div class="obra">
+        <div class="titol-obra">Signore delle cime</div>
+        <div class="autor">Giuseppe de Marzi</div>
+    </div>
 
-<ol>
-<li>Primera obra</li>
-<li>Segona obra</li>
-<li>Tercera obra</li>
-</ol>
+    <div class="obra">
+        <div class="titol-obra">Shenandoah</div>
+        <div class="autor">Tradicional nord-americana</div>
+    </div>
 
-<h2>Cor</h2>
-
-<p>
-Cor d'Homes Lupulus
-</p>
+</main>
 
 </body>
 </html>
